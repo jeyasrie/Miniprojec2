@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"/>
+  <listeners>
+    <listener class-name="utils.Listnercls"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="test.TC_001SignUp">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="setpath"/>
+          <include name="reportIniatialization"/>
+          <include name="reportClose"/>
+          <include name="testDetails"/>
+          <include name="invalidemailsignupTest"/>
+        </methods>
+      </class> <!-- test.TC_001SignUp -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

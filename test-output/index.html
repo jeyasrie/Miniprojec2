@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\srije\eclipse-workspace\ThinkingTester\testngsequential.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_001SignUp" class="method navigator-link" hash-for-method="invalidemailsignupTest">invalidemailsignupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(keshav, , , , , , , , , , , negative, Contact validation failed: lastName: Path `lastName` is requir...)">Contact(keshav, , , , , , , , , , , negative, Contact validation failed: lastName: Path `lastName` is requir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(hetwik, nesuru, , hetwik@kmai.com, 854, , , , , , , negative, Contact validation failed: phone: Phon...)">Contact(hetwik, nesuru, , hetwik@kmai.com, 854, , , , , , , negative, Contact validation failed: phone: Phon...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(joe, las, 1998-08, , , , , , , , , negative, Contact validation failed: birthdate: Birthdate is inva...)">Contact(joe, las, 1998-08, , , , , , , , , negative, Contact validation failed: birthdate: Birthdate is inva...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(mithra, angles, 2003-04-21, mithr2@kmail.com, 4657688, hebbal, 2nd stage, bangalore, karnataka, 5454...)">Contact(mithra, angles, 2003-04-21, mithr2@kmail.com, 4657688, hebbal, 2nd stage, bangalore, karnataka, 5454...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(muthu , kumar, , , , , , , , , )">Contact(muthu , kumar, , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(jhon, joe, , jhon@kmail, , , , , , , , negative, Contact validation failed: email: Email is invalid)">Contact(jhon, joe, , jhon@kmail, , , , , , , , negative, Contact validation failed: email: Email is invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(jeya, sri, , , , , , , , , )">Contact(jeya, sri, , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(, , , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is required.,...)">Contact(, , , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is required.,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(rekha, siva, , , , , , , , , , positive, Click on any contact to view the Contact Details)">Contact(rekha, siva, , , , , , , , , , positive, Click on any contact to view the Contact Details)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(mithra, angles, , mithra@kmail.com, 4354657, hebbal, surya bakery, mysore, karnatak, 46577, india)">Contact(mithra, angles, , mithra@kmail.com, 4354657, hebbal, surya bakery, mysore, karnatak, 46577, india)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(muthu, kumar, , , , , , , , , )">Contact(muthu, kumar, , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_006DeleteContact" class="method navigator-link" hash-for-method="Contact(washim, bhai, , , , 11th main, hebbal, chennai, tamilnadu, 43677, india)">Contact(washim, bhai, , , , 11th main, hebbal, chennai, tamilnadu, 43677, india)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(rekha, siva, , , , , , , , , )">Contact(rekha, siva, , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(meena, madhu, , , 2435456, , , , , , )">Contact(meena, madhu, , , 2435456, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_004AScendingName" class="method navigator-link" hash-for-method="Contact(rud, ran, , , , , , , , , )">Contact(rud, ran, , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(shiv, charan, , shiv@kmai.com, 91876543, , , , , , , positive, Click on any contact to view the Cont...)">Contact(shiv, charan, , shiv@kmai.com, 91876543, , , , , , , positive, Click on any contact to view the Cont...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(, kumar, , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is requi...)">Contact(, kumar, , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is requi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(shiva, charan, , shiv@kmail.com, 91876543, , , , , , , positive, Click on any contact to view the Co...)">Contact(shiva, charan, , shiv@kmail.com, 91876543, , , , , , , positive, Click on any contact to view the Co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_003ContactListTest" class="method navigator-link" hash-for-method="Contact(vaibhav, sankar, , , , , , , , ds432, , negative, Contact validation failed: postalCode: Postal code...)">Contact(vaibhav, sankar, , , , , , , , ds432, , negative, Contact validation failed: postalCode: Postal code...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_005EditContact" class="method navigator-link" hash-for-method="EditContact(washim, bhai, 2005-04-03, , , 11th main, hebbal, chennai, tamilnadu, 43677, india)">EditContact(washim, bhai, 2005-04-03, , , 11th main, hebbal, chennai, tamilnadu, 43677, india)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002Login" class="method navigator-link" hash-for-method="loginTest(jeya123@kmail, jeya123, negative, Incorrect username or password)">loginTest(jeya123@kmail, jeya123, negative, Incorrect username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002Login" class="method navigator-link" hash-for-method="loginTest(, , negative, Incorrect username or password)">loginTest(, , negative, Incorrect username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002Login" class="method navigator-link" hash-for-method="loginTest(, jeya123, negative, Incorrect username or password)">loginTest(, jeya123, negative, Incorrect username or password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_002Login" class="method navigator-link" hash-for-method="loginTest(jeya123@kmail.com, jeya123, Valid email and valid password, Contact List)">loginTest(jeya123@kmail.com, jeya123, Valid email and valid password, Contact List)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_007Logout" class="method navigator-link" hash-for-method="logoutfunction">logoutfunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC_001SignUp" class="method navigator-link" hash-for-method="signupTest">signupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.TC_001SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidemailsignupTest">
+                  </a> <!-- invalidemailsignupTest -->
+                  <span class="method-name">invalidemailsignupTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at page.SignUp.enterFirstName(SignUp.java:33)
+	at test.TC_001SignUp.invalidemailsignupTest(TC_001SignUp.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_007Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutfunction">
+                  </a> <!-- logoutfunction -->
+                  <span class="method-name">logoutfunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_001SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signupTest">
+                  </a> <!-- signupTest -->
+                  <span class="method-name">signupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_004AScendingName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(muthu , kumar, , , , , , , , , )">
+                  </a> <!-- Contact(muthu , kumar, , , , , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(muthu ,kumar,,,,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(jeya, sri, , , , , , , , , )">
+                  </a> <!-- Contact(jeya, sri, , , , , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(jeya,sri,,,,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(mithra, angles, , mithra@kmail.com, 4354657, hebbal, surya bakery, mysore, karnatak, 46577, india)">
+                  </a> <!-- Contact(mithra, angles, , mithra@kmail.com, 4354657, hebbal, surya bakery, mysore, karnatak, 46577, india) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(mithra,angles,,mithra@kmail.com,4354657,hebbal,surya bakery,mysore,karnatak,46577,india)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(muthu, kumar, , , , , , , , , )">
+                  </a> <!-- Contact(muthu, kumar, , , , , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(muthu,kumar,,,,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(rekha, siva, , , , , , , , , )">
+                  </a> <!-- Contact(rekha, siva, , , , , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(rekha,siva,,,,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(meena, madhu, , , 2435456, , , , , , )">
+                  </a> <!-- Contact(meena, madhu, , , 2435456, , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(meena,madhu,,,2435456,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(rud, ran, , , , , , , , , )">
+                  </a> <!-- Contact(rud, ran, , , , , , , , , ) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(rud,ran,,,,,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_003ContactListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(keshav, , , , , , , , , , , negative, Contact validation failed: lastName: Path `lastName` is requir...)">
+                  </a> <!-- Contact(keshav, , , , , , , , , , , negative, Contact validation failed: lastName: Path `lastName` is requir...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(keshav,,,,,,,,,,,negative,Contact validation failed: lastName: Path `lastName` is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(hetwik, nesuru, , hetwik@kmai.com, 854, , , , , , , negative, Contact validation failed: phone: Phon...)">
+                  </a> <!-- Contact(hetwik, nesuru, , hetwik@kmai.com, 854, , , , , , , negative, Contact validation failed: phone: Phon...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(hetwik,nesuru,,hetwik@kmai.com,854,,,,,,,negative,Contact validation failed: phone: Phone number is invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(joe, las, 1998-08, , , , , , , , , negative, Contact validation failed: birthdate: Birthdate is inva...)">
+                  </a> <!-- Contact(joe, las, 1998-08, , , , , , , , , negative, Contact validation failed: birthdate: Birthdate is inva...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(joe,las,1998-08,,,,,,,,,negative,Contact validation failed: birthdate: Birthdate is invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(mithra, angles, 2003-04-21, mithr2@kmail.com, 4657688, hebbal, 2nd stage, bangalore, karnataka, 5454...)">
+                  </a> <!-- Contact(mithra, angles, 2003-04-21, mithr2@kmail.com, 4657688, hebbal, 2nd stage, bangalore, karnataka, 5454...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(mithra,angles,2003-04-21,mithr2@kmail.com,4657688,hebbal,2nd stage,bangalore,karnataka,54546,india,positive,Click on any contact to view the Contact Details)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(jhon, joe, , jhon@kmail, , , , , , , , negative, Contact validation failed: email: Email is invalid)">
+                  </a> <!-- Contact(jhon, joe, , jhon@kmail, , , , , , , , negative, Contact validation failed: email: Email is invalid) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(jhon,joe,,jhon@kmail,,,,,,,,negative,Contact validation failed: email: Email is invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(, , , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is required.,...)">
+                  </a> <!-- Contact(, , , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is required.,...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(,,,,,,,,,,,negative,Contact validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(rekha, siva, , , , , , , , , , positive, Click on any contact to view the Contact Details)">
+                  </a> <!-- Contact(rekha, siva, , , , , , , , , , positive, Click on any contact to view the Contact Details) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(rekha,siva,,,,,,,,,,positive,Click on any contact to view the Contact Details)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(shiv, charan, , shiv@kmai.com, 91876543, , , , , , , positive, Click on any contact to view the Cont...)">
+                  </a> <!-- Contact(shiv, charan, , shiv@kmai.com, 91876543, , , , , , , positive, Click on any contact to view the Cont...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(shiv,charan,,shiv@kmai.com,91876543,,,,,,,positive,Click on any contact to view the Contact Details)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(, kumar, , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is requi...)">
+                  </a> <!-- Contact(, kumar, , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is requi...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(,kumar,,,,,,,,,,negative,Contact validation failed: firstName: Path `firstName` is required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(shiva, charan, , shiv@kmail.com, 91876543, , , , , , , positive, Click on any contact to view the Co...)">
+                  </a> <!-- Contact(shiva, charan, , shiv@kmail.com, 91876543, , , , , , , positive, Click on any contact to view the Co...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(shiva,charan,,shiv@kmail.com,91876543,,,,,,,positive,Click on any contact to view the Contact Details)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(vaibhav, sankar, , , , , , , , ds432, , negative, Contact validation failed: postalCode: Postal code...)">
+                  </a> <!-- Contact(vaibhav, sankar, , , , , , , , ds432, , negative, Contact validation failed: postalCode: Postal code...) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(vaibhav,sankar,,,,,,,,ds432,,negative,Contact validation failed: postalCode: Postal code is invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_002Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(jeya123@kmail, jeya123, negative, Incorrect username or password)">
+                  </a> <!-- loginTest(jeya123@kmail, jeya123, negative, Incorrect username or password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(jeya123@kmail,jeya123,negative,Incorrect username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, , negative, Incorrect username or password)">
+                  </a> <!-- loginTest(, , negative, Incorrect username or password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,,negative,Incorrect username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, jeya123, negative, Incorrect username or password)">
+                  </a> <!-- loginTest(, jeya123, negative, Incorrect username or password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,jeya123,negative,Incorrect username or password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(jeya123@kmail.com, jeya123, Valid email and valid password, Contact List)">
+                  </a> <!-- loginTest(jeya123@kmail.com, jeya123, Valid email and valid password, Contact List) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(jeya123@kmail.com,jeya123,Valid email and valid password,Contact List)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_006DeleteContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact(washim, bhai, , , , 11th main, hebbal, chennai, tamilnadu, 43677, india)">
+                  </a> <!-- Contact(washim, bhai, , , , 11th main, hebbal, chennai, tamilnadu, 43677, india) -->
+                  <span class="method-name">Contact</span>
+                  <span class="parameters">(washim,bhai,,,,11th main,hebbal,chennai,tamilnadu,43677,india)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC_005EditContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditContact(washim, bhai, 2005-04-03, , , 11th main, hebbal, chennai, tamilnadu, 43677, india)">
+                  </a> <!-- EditContact(washim, bhai, 2005-04-03, , , 11th main, hebbal, chennai, tamilnadu, 43677, india) -->
+                  <span class="method-name">EditContact</span>
+                  <span class="parameters">(washim,bhai,2005-04-03,,,11th main,hebbal,chennai,tamilnadu,43677,india)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srije\eclipse-workspace\ThinkingTester\testngsequential.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://thinking-tester-contact-list.herokuapp.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.Listnercls&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SmokeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC_001SignUp&quot;/&gt;
+      &lt;class name=&quot;test.TC_002Login&quot;/&gt;
+      &lt;class name=&quot;test.TC_003ContactListTest&quot;/&gt;
+      &lt;class name=&quot;test.TC_004AScendingName&quot;/&gt;
+      &lt;class name=&quot;test.TC_005EditContact&quot;/&gt;
+      &lt;class name=&quot;test.TC_006DeleteContact&quot;/&gt;
+      &lt;class name=&quot;test.TC_007Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SmokeTest (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EditContact')
+data.setCell(0, 2, 'test.TC_005EditContact')
+data.setCell(0, 3, 8635);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Contact')
+data.setCell(1, 2, 'test.TC_004AScendingName')
+data.setCell(1, 3, 7823);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Contact')
+data.setCell(2, 2, 'test.TC_006DeleteContact')
+data.setCell(2, 3, 6880);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Contact')
+data.setCell(3, 2, 'test.TC_004AScendingName')
+data.setCell(3, 3, 6587);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Contact')
+data.setCell(4, 2, 'test.TC_004AScendingName')
+data.setCell(4, 3, 6193);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Contact')
+data.setCell(5, 2, 'test.TC_004AScendingName')
+data.setCell(5, 3, 5747);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Contact')
+data.setCell(6, 2, 'test.TC_003ContactListTest')
+data.setCell(6, 3, 5395);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Contact')
+data.setCell(7, 2, 'test.TC_004AScendingName')
+data.setCell(7, 3, 5131);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Contact')
+data.setCell(8, 2, 'test.TC_004AScendingName')
+data.setCell(8, 3, 5130);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Contact')
+data.setCell(9, 2, 'test.TC_004AScendingName')
+data.setCell(9, 3, 4898);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Contact')
+data.setCell(10, 2, 'test.TC_003ContactListTest')
+data.setCell(10, 3, 4890);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Contact')
+data.setCell(11, 2, 'test.TC_003ContactListTest')
+data.setCell(11, 3, 4606);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Contact')
+data.setCell(12, 2, 'test.TC_003ContactListTest')
+data.setCell(12, 3, 4494);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Contact')
+data.setCell(13, 2, 'test.TC_003ContactListTest')
+data.setCell(13, 3, 4408);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Contact')
+data.setCell(14, 2, 'test.TC_003ContactListTest')
+data.setCell(14, 3, 4368);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Contact')
+data.setCell(15, 2, 'test.TC_003ContactListTest')
+data.setCell(15, 3, 4328);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Contact')
+data.setCell(16, 2, 'test.TC_003ContactListTest')
+data.setCell(16, 3, 4132);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Contact')
+data.setCell(17, 2, 'test.TC_003ContactListTest')
+data.setCell(17, 3, 4021);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Contact')
+data.setCell(18, 2, 'test.TC_003ContactListTest')
+data.setCell(18, 3, 3929);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Contact')
+data.setCell(19, 2, 'test.TC_003ContactListTest')
+data.setCell(19, 3, 3437);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'logoutfunction')
+data.setCell(20, 2, 'test.TC_007Logout')
+data.setCell(20, 3, 2025);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signupTest')
+data.setCell(21, 2, 'test.TC_001SignUp')
+data.setCell(21, 3, 1553);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'test.TC_002Login')
+data.setCell(22, 3, 1275);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginTest')
+data.setCell(23, 2, 'test.TC_002Login')
+data.setCell(23, 3, 947);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'invalidemailsignupTest')
+data.setCell(24, 2, 'test.TC_001SignUp')
+data.setCell(24, 3, 946);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'test.TC_002Login')
+data.setCell(25, 3, 928);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginTest')
+data.setCell(26, 2, 'test.TC_002Login')
+data.setCell(26, 3, 899);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_007Logout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_004AScendingName</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_003ContactListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_002Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_006DeleteContact</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TC_005EditContact</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportClose</span>
+                <br/>
+                <span class="ignored-method-name">reportIniatialization</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001SignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportIniatialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setpath</span>
+                <span class="method-start">247 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003ContactListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004AScendingName</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006DeleteContact</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005EditContact</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">251 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001SignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidemailsignupTest</span>
+                <span class="method-start">4817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">6001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signupTest</span>
+                <span class="method-start">9040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_002Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">10752 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">12642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(jeya123@kmail.com, jeya123, Valid email and valid password, Contact List)</span>
+                <span class="method-start">15649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">17098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(jeya123@kmail, jeya123, negative, Incorrect username or password)</span>
+                <span class="method-start">20782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">21882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, , negative, Incorrect username or password)</span>
+                <span class="method-start">25006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">26075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, jeya123, negative, Incorrect username or password)</span>
+                <span class="method-start">28920 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_003ContactListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">29982 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">30188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(mithra, angles, 2003-04-21, mithr2@kmail.com, 4657688, hebbal, 2nd stage, bangalore, karnataka, 5454...)</span>
+                <span class="method-start">33090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">38120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(rekha, siva, , , , , , , , , , positive, Click on any contact to view the Contact Details)</span>
+                <span class="method-start">41258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">45313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(joe, las, 1998-08, , , , , , , , , negative, Contact validation failed: birthdate: Birthdate is inva...)</span>
+                <span class="method-start">48124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">52663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(keshav, , , , , , , , , , , negative, Contact validation failed: lastName: Path `lastName` is requir...)</span>
+                <span class="method-start">55624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">60124 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(jhon, joe, , jhon@kmail, , , , , , , , negative, Contact validation failed: email: Email is invalid)</span>
+                <span class="method-start">63222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">67814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(hetwik, nesuru, , hetwik@kmai.com, 854, , , , , , , negative, Contact validation failed: phone: Phon...)</span>
+                <span class="method-start">71773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">76488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(vaibhav, sankar, , , , , , , , ds432, , negative, Contact validation failed: postalCode: Postal code...)</span>
+                <span class="method-start">79697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">83836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(shiv, charan, , shiv@kmai.com, 91876543, , , , , , , positive, Click on any contact to view the Cont...)</span>
+                <span class="method-start">86966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">92505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(shiva, charan, , shiv@kmail.com, 91876543, , , , , , , positive, Click on any contact to view the Co...)</span>
+                <span class="method-start">95418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">99671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(, kumar, , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is requi...)</span>
+                <span class="method-start">102530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">106114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(, , , , , , , , , , , negative, Contact validation failed: firstName: Path `firstName` is required.,...)</span>
+                <span class="method-start">108985 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_004AScendingName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">113438 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">113638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(mithra, angles, , mithra@kmail.com, 4354657, hebbal, surya bakery, mysore, karnatak, 46577, india)</span>
+                <span class="method-start">116619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">121897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(rekha, siva, , , , , , , , , )</span>
+                <span class="method-start">125154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">130447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(rud, ran, , , , , , , , , )</span>
+                <span class="method-start">133437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">138466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(meena, madhu, , , 2435456, , , , , , )</span>
+                <span class="method-start">141627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">149592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(jeya, sri, , , , , , , , , )</span>
+                <span class="method-start">152821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">158744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(muthu, kumar, , , , , , , , , )</span>
+                <span class="method-start">162651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">168992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(muthu , kumar, , , , , , , , , )</span>
+                <span class="method-start">172187 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_005EditContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">178901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">179085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditContact(washim, bhai, 2005-04-03, , , 11th main, hebbal, chennai, tamilnadu, 43677, india)</span>
+                <span class="method-start">182819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_006DeleteContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">191610 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">191799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Contact(washim, bhai, , , , 11th main, hebbal, chennai, tamilnadu, 43677, india)</span>
+                <span class="method-start">195476 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_007Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testDetails</span>
+                <span class="method-start">203171 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(https://thinking-tester-contact-list.herokuapp.com/, Chrome)</span>
+                <span class="method-start">203173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutfunction</span>
+                <span class="method-start">206749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC_001SignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportClose</span>
+                <span class="method-start">209144 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
